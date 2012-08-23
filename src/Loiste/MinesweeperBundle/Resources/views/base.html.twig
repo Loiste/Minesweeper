@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Loiste Minesweeper</title>
+        {% image
+            '@LoisteMinesweeperBundle/Resources/public/images/*'
+        %}
+        {% endimage %}
+
+        {% stylesheets filter="cssrewrite"
+            'bundles/loisteminesweeper/css/*'
+
+            output='css/dist/dist.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+
+        {% javascripts
+            '@LoisteMinesweeperBundle/Resources/public/js/jquery-1.8.0.min.js'
+            '@LoisteMinesweeperBundle/Resources/public/js/*'
+        %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+    </head>
+    <body>
+        {% block body %}
+        Nothing to show.
+        {% endblock %}
+    </body>
+</html>

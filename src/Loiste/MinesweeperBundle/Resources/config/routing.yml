@@ -1,3 +1,7 @@
-LoisteMinesweeperBundle_index:
+LoisteMinesweeperBundle_start:
     pattern:  /
-    defaults: { _controller: LoisteMinesweeperBundle:Default:index }
+    defaults: { _controller: LoisteMinesweeperBundle:Game:start }
+
+LoisteMinesweeperBundle_makeMove:
+    pattern: /makeMove
+    defaults: { _controller: LoisteMinesweeperBundle:Game:makeMove}
