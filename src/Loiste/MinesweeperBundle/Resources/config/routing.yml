@@ -1,0 +1,3 @@
+LoisteMinesweeperBundle_index:
+    pattern:  /
+    defaults: { _controller: LoisteMinesweeperBundle:Default:index }

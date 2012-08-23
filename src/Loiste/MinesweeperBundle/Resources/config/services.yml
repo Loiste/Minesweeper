@@ -1,0 +1,7 @@
+parameters:
+#    loiste_minesweeper.example.class: Loiste\MinesweeperBundle\Example
+
+services:
+#    loiste_minesweeper.example:
+#        class: %loiste_minesweeper.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
