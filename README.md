@@ -1,6 +1,6 @@
-# Minesweeper
+<img src="https://raw.github.com/Loiste/Minesweeper/master/screenshot.jpg" />
 
-A simple Minesweeper clone to test employee candidates.
+A simple Minesweeper clone to test employee candidates. This project is not finished, and it is indented to be so.
 
 ### Tools in use
 
