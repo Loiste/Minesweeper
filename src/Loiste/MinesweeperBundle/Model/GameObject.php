@@ -12,6 +12,7 @@ class GameObject
     const TYPE_EMPTY = 2; // Discovered.
     const TYPE_NUMBER = 3; // Discovered.
     const TYPE_EXPLOSION = 4; // Damn we hit a mine!
+    const TYPE_MINE_DISCOVERED = 5;
 
     public $type;
 
@@ -33,5 +34,13 @@ class GameObject
     public function isEmpty()
     {
         return $this->type === GameObject::TYPE_EMPTY;
+    }
+
+    /**
+     * Returns the number of mines around this cell.
+     */
+    public function getNumber()
+    {
+        return floor(mt_rand(0, 7)) + 1;
     }
 }

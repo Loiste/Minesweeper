@@ -25,7 +25,7 @@ class Game
 
             $temp = array();
             for ($column = 0; $column < 20; $column++) {
-                $temp[] = new GameObject(floor(mt_rand(0, 2)));
+                $temp[] = new GameObject(floor(mt_rand(0, 3))); // Randomize the game object type. TODO: Change this.
             }
 
             $this->gameArea[] = $temp;

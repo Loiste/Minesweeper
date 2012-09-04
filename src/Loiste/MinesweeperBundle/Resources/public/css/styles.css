@@ -1,12 +1,24 @@
-html, body {
+html {
     background: #eee;
+    margin: 0 64px;
+}
+
+body {
     font-family: "Segoe UI", sans-serif;
-    margin: 16px 32px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#game {
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.25);
 }
 
 .game-cell {
-    background: #ddd;
-    border: 1px solid #aaa;
+    border: 1px solid #fff;
     cursor: pointer;
     width: 64px;
     height: 64px;
