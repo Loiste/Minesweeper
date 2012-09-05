@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/Loiste/Minesweeper/master/screenshot.jpg" />
+<img src="https://raw.github.com/Loiste/Minesweeper/master/screenshot.png" />
 
 A simple Minesweeper clone to test employee candidates. This project is not finished, and it is indented to be so.
 
